@@ -95,7 +95,7 @@ class Repl
   end
 
   def winner
-    puts "CONGRADULATIONS! You have one in #{moves_counter} total moves!!!!!"
+    puts "CONGRATULATIONS! You have won in #{moves_counter} total moves!!!!!"
   end
 
   def prompt

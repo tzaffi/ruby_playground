@@ -1,8 +1,9 @@
 class Graphics
+  EXTRA_HEIGHT = 5
+
   def draw(game)
     # one, two, three = game.poles
-    height = game.n
-    idx    = height - 1
+    idx = game.n + EXTRA_HEIGHT - 1
     while idx >= 0
       game.poles.each do |pole|
         if idx >= pole.length
@@ -14,7 +15,7 @@ class Graphics
       puts ''
       idx -= 1
     end
-    draw_bottom(height)
+    draw_bottom(game.n)
   end
 
   private
