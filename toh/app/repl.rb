@@ -1,5 +1,5 @@
-require './game'
-require './graphics'
+require_relative 'game'
+require_relative 'graphics'
 
 class Repl
   def initialize

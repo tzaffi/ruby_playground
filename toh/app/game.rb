@@ -1,4 +1,4 @@
-require './ring'
+require_relative 'ring'
 
 class Game
   attr_reader :n
