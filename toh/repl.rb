@@ -62,7 +62,7 @@ class Repl
   def handle_move(poles)
     @moves_counter += 1
     if poles.length != 2
-      puts 'ERROR: must enter left pole and right pole'
+      puts 'ERROR: must enter source pole and destination pole'
       help
       return
     end
